@@ -1,0 +1,136 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.topBar{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #333333;
+  height: 50px;
+  color: white;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.topBarText{
+  transform: translate(0px, 15px);
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.bar2{
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  justify-content: center;
+}
+
+.bar2Text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 150px;
+
+  transform: translate(0px, -35px);
+}
+
+.titleText{
+  font-size: 50px;
+}
+
+.subtitleText{
+  font-size: 24px;
+}
+
+.bar3{
+  background-color: #F7D13B;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+}
+
+.button{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.button:hover{
+  background-color: #747474;
+  color: white;
+}
+
+.imagesOfTheWeek{
+  transform: translate(0px, -11px);
+}
+
+.bar4{
+  background-color: #F7D13B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  transform: translate(0px, -15px);
+  flex-direction: column;
+}
+
+.allButtons{
+  display: flex;
+}
+
+.buttonV2{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  display: flex;
+  align-items: center;
+}
+
+.buttonV2:hover{
+  background-color: #747474;
+  color: white;
+}
+
+.down{
+  transform: translate(0px, 10px);
+}
+
+.up{
+  transform: translate(0px, -15px);
+}
+
+.bar5{
+  background-color: #F7D13B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  transform: translate(0px, -10px);
+  flex-direction: column;
+}
+
+.topBar5{
+  background-color: #F7D13B;
+  height: 30px;
+  transform: translate(0px, 10px);
+  font-size: 40px;
+  justify-content: left;
+  width: 79%;
+  padding-left: 300px;
+  padding-top: 40px;
+}
+
+.bottomBar5{
+  background-color: #F7D13B;
+  padding-top: 30px;
+  align-self: center;
+  padding-left: 140px;
+}
